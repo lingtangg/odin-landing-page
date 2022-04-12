@@ -21,6 +21,11 @@ h2 {
     color: #1f2937;
 }
 
+h3 {
+    margin: 0 0 5px 0;
+}
+
+
 ul,
 .header-text {
     font-size: 18px;
@@ -41,7 +46,7 @@ a, a:visited {
 
 .first-section {
     background-color: #1f2937;
-    padding: 5px 12%;
+    padding: 5px 15%;
 }
 
 .header {
@@ -64,10 +69,64 @@ a, a:visited {
 .second-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .photo-cards {
     display: flex;
+    justify-content: center;
+    gap: 35px;  
+    margin-bottom: 80px;
+}
+
+.photo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+}
+
+.card-photo {
+    width: 180px;
+    height: 180px;
+    background-position: auto auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.third-section {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    background-color: #e5e7eb;
+    padding: 100px 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section {
+    background-color: #3882f6;
+    color:#f9faf8;
+    margin: 80px 15%;
+    border-radius: 4px;
+    padding: 50px 150px 50px 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.banner-text {
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-size: 18px;
+    padding: 30px 0 30px 0;
+    text-align: center;
 }
 
 #header-logo {
@@ -76,7 +135,8 @@ a, a:visited {
     font-weight: 700;
 }
 
-#sign-up-top {
+#sign-up-top,
+#sign-up-bottom {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
@@ -87,7 +147,22 @@ a, a:visited {
     font-size: 18px;
 }
 
+#sign-up-bottom {
+    border: #f9faf8;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
 #header-image {
     max-width: 500px;
     height: auto;
+}
+
+#quote-author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: auto;
 }
